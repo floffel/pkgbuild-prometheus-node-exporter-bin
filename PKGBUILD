@@ -1,7 +1,7 @@
 # Maintainer: Slashbunny <demodevil5[at]yahoo>
 
 pkgname=prometheus-node-exporter-bin
-pkgver=0.16
+pkgver=0.16.0
 pkgrel=1
 pkgdesc="Prometheus exporter for machine metrics (binary, not built from source)"
 arch=('x86_64' 'armv7h')
