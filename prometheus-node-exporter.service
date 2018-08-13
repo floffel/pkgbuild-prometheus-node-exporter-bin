@@ -3,6 +3,10 @@ Description=Prometheus Exporter for machine metrics
 After=network.target
 
 [Service]
+RestartSec=1s
+type=simple
+User=nobody
+Group=nobody
 ExecStart=/usr/bin/prometheus_node_exporter
 
 [Install]
